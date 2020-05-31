@@ -2,6 +2,14 @@
 - Shaurya Bajaj
 - Ritesh Jampala
 
+# Live Demo Link
+- Fill the patient name, mail and prescription.
+- Check your mail for the AR-QR Enabled Prescription.
+- Download the apk on your mobile from the link given in the mail.
+- Open the mobile app.
+- Give Camera and other Permissions (**first time only**)
+- Scan the QR code for the respective prescription 
+- 3d Models and video will be generated.
 
 # How to use Directly [Use apk on prescription] ?
 - Go to the acessories Folder
@@ -16,7 +24,6 @@
 
 # Note
 - Need to have local setup OR can Directly use apk on prescription (as Stated above)
-- Set up eclipse. You need to have an amazon web services account.
-- Import Java project as Maven Project. Run on Tomcat Server. 
-- Also amazon credentails( token) must be generated and added to code to be used. 
+- Set up eclipse. 
+- Import Java project as Maven Project. Run on Tomcat Server.  
 - Fill prescription details etc. Install the app and scan the QR code on prescription

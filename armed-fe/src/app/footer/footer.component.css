@@ -1,0 +1,18 @@
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.activation-buttons {
+    color: #fff !important;
+    background: #005eb8 !important;
+    border: 1px #005eb8 !important;
+    position: absolute;
+    bottom: 10px;
+    left: 52%;
+    margin-left: -110.5px
+  }

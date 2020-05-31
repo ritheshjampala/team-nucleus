@@ -1,0 +1,18 @@
+<!-- Dialog for adding the Patient Details -->
+
+<h1 mat-dialog-title>Enter Patient Details here</h1>
+<div mat-dialog-content>
+  <mat-form-field style="float: left; width: 100%; clear: left;">
+    <input matInput [(ngModel)]="data.name" placeholder="Patient Name">
+  </mat-form-field>
+  <mat-form-field style="float: left; width: 100%; clear: left;">
+    <input matInput [(ngModel)]="data.email" placeholder="Patient Email">
+  </mat-form-field>
+  <mat-form-field style="float: left; width: 100%; clear: left;">
+    <textarea matInput matTextareaAutosize [(ngModel)]="data.details" placeholder="Enter Prescription Details "></textarea>
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Ok</button>
+</div>

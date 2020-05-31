@@ -1,0 +1,13 @@
+.activation-buttons {
+  color: #fff !important;
+  background: #005eb8 !important;
+  border: 1px #005eb8 !important;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -104.5px
+}
+
+.homepage {
+    background-size: 100% 100%;
+}

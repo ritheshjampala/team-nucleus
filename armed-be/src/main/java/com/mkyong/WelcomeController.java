@@ -71,7 +71,7 @@ public class WelcomeController {
 		  this.patientDetails = patientDetails.getDetails();
 		 // sendMail(patientDetails.getEmail());
 				AWSCredentialsProvider credentials = new AWSStaticCredentialsProvider(
-						new BasicAWSCredentials("AKIAJSNVDDLKELTTHOAQ", "2Oj0wHfDQ5c++votvGdkz+yy6eAZE+NJIrlzkuMX"));  //Generate token and add it
+						new BasicAWSCredentials("", ""));  //Generate token and add it
 				System.out.println(Regions.getCurrentRegion());
 				AWSComprehendMedical client = AWSComprehendMedicalClient.builder().withCredentials(credentials)
 						.withRegion(Regions.US_EAST_2).build();

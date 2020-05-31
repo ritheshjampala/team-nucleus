@@ -1,27 +1,22 @@
-# ArAngular
+# Team
+- Shaurya Bajaj
+- Ritesh Jampala
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
 
-## Development server
+# How to use Directly [Use apk on prescription] ?
+- Go to the acessories Folder
+- There are 2 examples
+- Download the generated prescription and arMED APK directly
+- Install the APK.
+- Open the mobile app.
+- Give Camera and other Permissions (**first time only**)
+- Scan the QR code for the respective prescription 
+- 3d Models and video will be generated.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# Note
+- Need to have local setup OR can Directly use apk on prescription (as Stated above)
+- Set up eclipse. You need to have an amazon web services account.
+- Import Java project as Maven Project. Run on Tomcat Server. 
+- Also amazon credentails( token) must be generated and added to code to be used. 
+- Fill prescription details etc. Install the app and scan the QR code on prescription

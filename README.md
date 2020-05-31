@@ -2,7 +2,7 @@
 - Shaurya Bajaj
 - Ritesh Jampala
 
-# Live Demo Link
+# Live Demo Link(https://armedfe.azurewebsites.net/)
 - Fill the patient name, mail and prescription.
 - Check your mail for the AR-QR Enabled Prescription.
 - Download the apk on your mobile from the link given in the mail.

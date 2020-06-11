@@ -284,7 +284,7 @@ public class WelcomeController {
 				   
 				   Session session = Session.getInstance(props, new javax.mail.Authenticator() {
 				      protected PasswordAuthentication getPasswordAuthentication() {
-				         return new PasswordAuthentication("armed.teamnucleus.sbajaj.rjampala@gmail.com", "ArMED@13");
+				         return new PasswordAuthentication("armed.teamnucleus.sbajaj.rjampala@gmail.com", "");
 				      }
 				   });
 				   
